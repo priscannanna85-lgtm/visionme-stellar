@@ -1,0 +1,10 @@
+{
+  "name": "contracts",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "stellar contract build",
+    "optimize": "stellar contract optimize",
+    "deploy:testnet": "stellar contract deploy --network testnet --source-account deployer"
+  }
+}
